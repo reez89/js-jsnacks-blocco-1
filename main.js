@@ -296,21 +296,21 @@ numero di elementi) prendendo alternativamente gli
 elementi da uno e dall’altro
 es. [a,b,c], [1,2,3] → [a,1,b,2,c,3]. */
 
-var letters = ["d","f","g","h","l"];
-var numbers = [1,2,3,4,5];
+// var letters = ["d","f","g","h","l"];
+// var numbers = [1,2,3,4,5];
 
-var fusion = [];
+// var fusion = [];
 
-function combination(a,b){
-    var x=0;
-    while(fusion.length != (letters.length + numbers.length)){
-        fusion.push(a[x],b[x]);
-        x++;
-    }
-}
+// function combination(a,b){
+//     var x=0;
+//     while(fusion.length != (letters.length + numbers.length)){
+//         fusion.push(a[x],b[x]);
+//         x++;
+//     }
+// }
 
-combination(letters,numbers);
-console.log(fusion);
+// combination(letters,numbers);
+// console.log(fusion);
 
 
 /* Scrivi una funzione che accetti tre argomenti:
@@ -318,4 +318,18 @@ un array e due numeri (“a” più piccolo di “b” e “b” grande al
 massimo quanto il numero di elementi dell’array).
 La funzione ritornerà un nuovo array con i valori che
 hanno la posizione compresa tra “a” e “b” */
+
+var arguments = ["cars", "bike",2,"mobile","websites","calendar", "days"];
+var newArray = [];
+function assignValues(array,a,b){
+  if (a < b && b <= array.length){
+      console.log("Hello there");
+      for(var x=a ; x<=b; x++){
+          newArray.push(array[x]);
+      }
+  }
+}
+
+assignValues(arguments,2,5);
+console.log(newArray);
 
