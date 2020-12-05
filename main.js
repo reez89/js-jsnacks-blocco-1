@@ -323,13 +323,15 @@ var arguments = ["cars", "bike",2,"mobile","websites","calendar", "days"];
 var newArray = [];
 function assignValues(array,a,b){
   if (a < b && b <= array.length){
-      console.log("Hello there");
-      for(var x=a ; x<=b; x++){
+      console.log("Hello there, THIS IS YOUR NEW ARRAY");
+      for(var x=a ; x<b; x++){
           newArray.push(array[x]);
-      }
-  }
+        }
+    } else {
+        console.log("CONDITIONS ARE NOT VALID");
+    }
 }
 
-assignValues(arguments,2,5);
+assignValues(arguments,1,5);
 console.log(newArray);
 
