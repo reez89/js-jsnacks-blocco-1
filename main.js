@@ -120,71 +120,66 @@
 indicando per ognuna varietà, peso e lunghezza.
 Calcola quanto pesano tutte le zucchine */
 
-// var zucchinaUno = 
+// var zucchine =[ 
 //     {
-//         varieta: "Zucchino nero di Milano",
-//         peso: 20,
-//         lunchezza: 55
-//     }
-// var zucchinaDue =
-//     {
-//         varieta: "Zucchino romanesco",
-//         peso: 25,
-//         lunchezza: 13 
-//     }
-// var zucchinaTre =
-//     {
-//         varieta: "Zucchino ortolano di Faenza",
+//         varietà : "Zucchino tondo di Nizza" ,
 //         peso: 35,
-//         lunchezza: 22
-//     }
-// var zucchinaQuattro = 
+//         lunchezza: 12
+//     },
 //     {
-//         varieta: "Zucchina lunga fiorentina",
-//         peso: 10,
-//         lunchezza:37
-//     }
-
-// var zucchinaCinque = 
+//         varietà : "Zucchino tondo di Nizza" ,
+//         peso: 35,
+//         lunchezza: 12
+//     },
 //     {
-//         varieta: "Zucchino siciliano",
-//         peso: 12,
-//         lunchezza: 23
-//     }
-// var zucchinaSei = 
+//         varietà : "Zucchino tondo di Nizza" ,
+//         peso: 35,
+//         lunchezza: 12
+//     },
 //     {
-//         varieta: "Zucchina striata di Napoli",
-//         peso: 63, 
-//         lunchezza: 15
-//     }
-// var zucchinaSette =
+//         varietà : "Zucchino tondo di Nizza" ,
+//         peso: 35,
+//         lunchezza: 12
+//     },
 //     {
-//         varieta: "Zucchina bianca triestina",
-//         peso: 5,
-//         lunchezza: 33
-//     }
-// var zucchinaOtto =
+//         varietà : "Zucchino tondo di Nizza" ,
+//         peso: 35,
+//         lunchezza: 12
+//     },
 //     {
-//         varieta: "Zucchina rigata pugliese",
-//         peso: 7,
-//         lunchezza: 84
-//     }
-// var zucchinaNove =
+//         varietà : "Zucchino tondo di Nizza" ,
+//         peso: 35,
+//         lunchezza: 12
+//     },
 //     {
-//         varieta: "Zucchino tondo di Piacenza",
-//         peso: 98,
-//         lunchezza: 22
-//     }
-// var zucchinaDieci =
+//         varietà : "Zucchino tondo di Nizza" ,
+//         peso: 35,
+//         lunchezza: 12
+//     },
 //     {
-//         varieta: "Zucchino tondo di Nizza",
+//         varietà : "Zucchino tondo di Nizza" ,
+//         peso: 35,
+//         lunchezza: 12
+//     },
+//     {
+//         varietà : "Zucchino tondo di Nizza" ,
+//         peso: 35,
+//         lunchezza: 12
+//     },
+//     {
+//         varietà : "Zucchino tondo di Nizza" ,
 //         peso: 35,
 //         lunchezza: 12
 //     }
+    
+// ];
 
-// var sommaPesoZucchine = zucchinaUno.peso + zucchinaDue.peso + zucchinaTre.peso + zucchinaQuattro.peso + zucchinaCinque.peso + zucchinaSei.peso + zucchinaSette.peso + zucchinaOtto.peso + zucchinaNove.peso + zucchinaDieci.peso
+// somma = 0;
+// zucchine.forEach(item => {
+//     somma += item.peso
+// });
 
-// console.log(sommaPesoZucchine);
+// console.log(somma);
 
 /* Scrivi una funzione che accetti una stringa come
 argomento e la ritorni girata (es. Ciao -> oaiC)  */
@@ -319,19 +314,19 @@ massimo quanto il numero di elementi dell’array).
 La funzione ritornerà un nuovo array con i valori che
 hanno la posizione compresa tra “a” e “b” */
 
-var arguments = ["cars", "bike",2,"mobile","websites","calendar", "days"];
-var newArray = [];
-function assignValues(array,a,b){
-  if (a < b && b <= array.length){
-      console.log("Hello there, THIS IS YOUR NEW ARRAY");
-      for(var x=a ; x<b; x++){
-          newArray.push(array[x]);
-        }
-    } else {
-        console.log("CONDITIONS ARE NOT VALID");
-    }
-}
+// var arguments = ["cars", "bike",2,"mobile","websites","calendar", "days"];
+// var newArray = [];
+// function assignValues(array,a,b){
+//   if (a < b && b <= array.length){
+//       console.log("Hello there, THIS IS YOUR NEW ARRAY");
+//       for(var x=a ; x<b; x++){
+//           newArray.push(array[x]);
+//         }
+//     } else {
+//         console.log("CONDITIONS ARE NOT VALID");
+//     }
+// }
 
-assignValues(arguments,1,5);
-console.log(newArray);
+// assignValues(arguments,1,5);
+// console.log(newArray);
 
